@@ -1,5 +1,5 @@
 {
-  "name": "@charkour/react-reactions",
+  "name": "@kalea/react-reactions",
   "version": "0.11.0",
   "private": false,
   "description": "😲 Create custom reaction pickers and counters or use your favorites!",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/charkour/react-reactions.git"
+    "url": "git+https://github.com/ka1ea/react-reactions.git"
   },
   "license": "MIT",
   "author": "Charles Kornoelje",
