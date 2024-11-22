@@ -9,7 +9,6 @@ export interface SlackSelectorProps {
   frequent?: string[];
   removeEmojis?: string[];
   onSelect?: (id: string) => void;
-  reverse?: boolean;
 }
 
 export const SlackSelector = React.forwardRef<
@@ -22,7 +21,6 @@ export const SlackSelector = React.forwardRef<
       frequent = defaultProps.frequent,
       removeEmojis = defaultProps.removeEmojis,
       onSelect = defaultProps.onSelect,
-      reverse = defaultProps.reverse,
     },
     ref
   ) => {
@@ -35,7 +33,6 @@ export const SlackSelector = React.forwardRef<
           removeEmojis={removeEmojis}
           frequent={frequent}
           onSelect={onSelect}
-          reverse={reverse}
         />
         <SlackSelectorFooter onSelect={onSelect} />
       </div>
